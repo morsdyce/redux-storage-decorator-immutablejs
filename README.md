@@ -12,14 +12,11 @@
 [ImmutableJS][] decorator for [redux-storage][]. Use this to convert the loaded
 state tree (or parts of it) into a [ImmutableJS][] structure.
 
-# Deprecated - No longer maintained
+# A fork of [michaelcontento/redux-storage-decorator-immutablejs](https://github.com/michaelcontento/redux-storage-decorator-immutablejs)
 
-My focus has left the node / react ecosystem and this module is no
-longer maintained. Maybe [redux-persist](https://github.com/rt2zz/redux-persist) 
-is a good replacement for you? Or if you want to step in and become
-the new owner - just ping me :smile:
+The original author of the package [redux-storage-decorator-immutablejs](https://github.com/michaelcontento/redux-storage-decorator-immutablejs) has decided to deprecate the project and no longer maintain. The package will now be maintained here.
 
-Thank you for your patience and using this module in the first place!
+Thank you michaelcontento for a great library!
 
 ## Installation
 
