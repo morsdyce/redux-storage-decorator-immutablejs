@@ -1,4 +1,4 @@
-# [redux-storage-decorator-immutablejs][]
+# redux-storage-decorator-immutablejs
 
 [![build](https://travis-ci.org/michaelcontento/redux-storage-decorator-immutablejs.svg?branch=master)](https://travis-ci.org/michaelcontento/redux-storage-decorator-immutablejs)
 [![dependencies](https://david-dm.org/michaelcontento/redux-storage-decorator-immutablejs.svg)](https://david-dm.org/michaelcontento/redux-storage-decorator-immutablejs)
@@ -40,7 +40,7 @@ engine = immutablejs(engine, [
 
     The MIT License (MIT)
 
-    Copyright (c) 2015 Michael Contento
+    Copyright (c) 2015 Gunjan Soni
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the "Software"), to deal in
@@ -59,6 +59,6 @@ engine = immutablejs(engine, [
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-  [redux-storage]: https://github.com/michaelcontento/redux-storage
-  [redux-storage-decorator-immutablejs]: https://github.com/michaelcontento/redux-storage-decorator-immutablejs
+  [redux-storage]: https://github.com/guns2410/redux-storage
+  [redux-storage-decorator-immutablejs]: https://github.com/guns2410/redux-storage-decorator-immutablejs
   [ImmutableJS]: https://github.com/facebook/immutable-js
