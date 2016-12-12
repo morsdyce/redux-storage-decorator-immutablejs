@@ -1,13 +1,12 @@
 # redux-storage-decorator-immutablejs
 
-[![build](https://travis-ci.org/michaelcontento/redux-storage-decorator-immutablejs.svg?branch=master)](https://travis-ci.org/michaelcontento/redux-storage-decorator-immutablejs)
-[![dependencies](https://david-dm.org/michaelcontento/redux-storage-decorator-immutablejs.svg)](https://david-dm.org/michaelcontento/redux-storage-decorator-immutablejs)
-[![devDependencies](https://david-dm.org/michaelcontento/redux-storage-decorator-immutablejs/dev-status.svg)](https://david-dm.org/michaelcontento/redux-storage-decorator-immutablejs#info=devDependencies)
+[![build](https://travis-ci.org/react-stack/redux-storage-decorator-immutablejs.svg?branch=master)](https://travis-ci.org/react-stack/redux-storage-decorator-immutablejs)
+[![dependencies](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs.svg)](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs)
+[![devDependencies](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs/dev-status.svg)](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs#info=devDependencies)
 
 [![license](https://img.shields.io/npm/l/redux-storage-decorator-immutablejs.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-immutablejs)
 [![npm version](https://img.shields.io/npm/v/redux-storage-decorator-immutablejs.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-immutablejs)
 [![npm downloads](https://img.shields.io/npm/dm/redux-storage-decorator-immutablejs.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-immutablejs)
-[![Code Climate](https://codeclimate.com/github/michaelcontento/redux-storage-decorator-immutablejs/badges/gpa.svg)](https://codeclimate.com/github/michaelcontento/redux-storage-decorator-immutablejs)
 
 [ImmutableJS][] decorator for [redux-storage][]. Use this to convert the loaded
 state tree (or parts of it) into a [ImmutableJS][] structure.
