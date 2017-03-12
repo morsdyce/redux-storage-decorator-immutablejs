@@ -1,4 +1,4 @@
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
 export default (engine, whitelist = []) => {
     return {
@@ -7,7 +7,7 @@ export default (engine, whitelist = []) => {
         load() {
             return engine.load().then((result) => {
                 whitelist.forEach((key) => {
-                    result[key] = fromJS(result[key]);
+                    result[key] = Immutable(result[key]);
                 });
                 return result;
             });

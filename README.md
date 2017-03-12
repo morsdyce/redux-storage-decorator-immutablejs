@@ -1,19 +1,19 @@
-# redux-storage-decorator-immutablejs
+# redux-storage-decorator-seamless-immutable
 
-[![build](https://travis-ci.org/react-stack/redux-storage-decorator-immutablejs.svg?branch=master)](https://travis-ci.org/react-stack/redux-storage-decorator-immutablejs)
-[![dependencies](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs.svg)](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs)
-[![devDependencies](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs/dev-status.svg)](https://david-dm.org/react-stack/redux-storage-decorator-immutablejs#info=devDependencies)
+[![build](https://travis-ci.org/morsdyce/redux-storage-decorator-seamless-immutable.svg?branch=master)](https://travis-ci.org/morsdyce/redux-storage-decorator-seamless-immutable)
+[![dependencies](https://david-dm.org/morsdyce/redux-storage-decorator-seamless-immutable.svg)](https://david-dm.org/morsdyce/redux-storage-decorator-seamless-immutable)
+[![devDependencies](https://david-dm.org/morsdyce/redux-storage-decorator-seamless-immutable/dev-status.svg)](https://david-dm.org/morsdyce/redux-storage-decorator-seamless-immutable#info=devDependencies)
 
-[![license](https://img.shields.io/npm/l/redux-storage-decorator-immutablejs.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-immutablejs)
-[![npm version](https://img.shields.io/npm/v/redux-storage-decorator-immutablejs.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-immutablejs)
-[![npm downloads](https://img.shields.io/npm/dm/redux-storage-decorator-immutablejs.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-immutablejs)
+[![license](https://img.shields.io/npm/l/redux-storage-decorator-seamless-immutable.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-seamless-immutable)
+[![npm version](https://img.shields.io/npm/v/redux-storage-decorator-seamless-immutable.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-seamless-immutable)
+[![npm downloads](https://img.shields.io/npm/dm/redux-storage-decorator-seamless-immutable.svg?style=flat-square)](https://www.npmjs.com/package/redux-storage-decorator-seamless-immutable)
 
 [ImmutableJS][] decorator for [redux-storage][]. Use this to convert the loaded
 state tree (or parts of it) into a [ImmutableJS][] structure.
 
 ## Installation
 
-    npm install --save redux-storage-decorator-immutablejs
+    npm install --save redux-storage-decorator-seamless-immutable
 
 ## Usage
 
@@ -21,17 +21,17 @@ Simply wrap your engine in this decorator and list all keys (or key path) that
 should be converted.
 
 ```js
-import immutablejs from 'redux-storage-decorator-immutablejs'
+import immutable from 'redux-storage-decorator-seamless-immutable'
 
-engine = immutablejs(engine, [
-    ['immutablejs-reducer'],
-    ['plain-object-reducer', 'with-immutablejs-key']
+engine = immutable(engine, [
+    ['seamless-immutable-reducer'],
+    ['plain-object-reducer', 'with-seamless-immutable-key']
 ]);
 ```
 
-# A fork of [redux-storage-decorator-immutablejs](https://github.com/michaelcontento/redux-storage-decorator-immutablejs)
+# A fork of [redux-storage-decorator-seamless-immutable](https://github.com/michaelcontento/redux-storage-decorator-seamless-immutable)
 
-The original author of the package [redux-storage-decorator-immutablejs](https://github.com/michaelcontento/redux-storage-decorator-immutablejs) has decided to deprecate the project and no longer maintained. The package will now be maintained here.
+The original author of the package [redux-storage-decorator-seamless-immutable](https://github.com/michaelcontento/redux-storage-decorator-seamless-immutable) has decided to deprecate the project and no longer maintained. The package will now be maintained here.
 
 Thank you [michaelcontento](https://github.com/michaelcontento) for a great library!
 
@@ -59,6 +59,6 @@ Thank you [michaelcontento](https://github.com/michaelcontento) for a great libr
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-  [redux-storage]: https://github.com/react-stack/redux-storage
-  [redux-storage-decorator-immutablejs]: https://github.com/react-stack/redux-storage-decorator-immutablejs
-  [ImmutableJS]: https://github.com/facebook/immutable-js
+  [redux-storage]: https://github.com/morsdyce/redux-storage
+  [redux-storage-decorator-seamless-immutable]: https://github.com/morsdyce/redux-storage-decorator-seamless-immutable
+  [seamless-immutable]: https://github.com/rtfeldman/seamless-immutable
