@@ -1,6 +1,6 @@
 {
   "name": "redux-storage-decorator-seamless-immutable",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Decorator for redux-storage to convert your state tree to ImmutableJS",
   "main": "build/index.js",
   "scripts": {
